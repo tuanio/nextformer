@@ -28,7 +28,7 @@
 
 Conformer models have achieved state-of-the-art (SOTA) results in end-to-end speech recognition. However Conformer mainly focuses on temporal modeling while pays less attention on time-frequency property of speech feature. Authors has augment Conformer with ConvNeXt and propose Nextformer structure, they stacks of ConvNeXt block to replace the commonly used subsampling module in Conformer for utilizing the information contained in timefrequency speech feature. Besides, they insert an additional downsampling module in middle of Conformer layers to make Nextformer model more efficient and accurate.
 
-<img src="https://user-images.githubusercontent.com/42150335/105602364-aeafad80-5dd8-11eb-8886-b75e2d9d31f4.png" height=600>
+<img src="https://user-images.githubusercontent.com/30165828/207250519-2926ed6f-e895-4d62-b547-47854a5fee04.png" height=600>
   
 This repository contains only model code.
   
